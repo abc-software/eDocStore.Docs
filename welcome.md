@@ -7,7 +7,9 @@ date: 09/11/2018
 ---
 -->
 
-![abc-logo](media/edocstore-logo.png "abc-logo")  
+<p align="center"> 
+  <img width="266" height="252" src="media/edocstore-logo.png">
+</p>
 
 # Welcome to eDocStore
 
