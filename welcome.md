@@ -6,6 +6,9 @@ author: alvis
 date: 09/11/2018
 ---
 -->
+
+![abc-logo](media/abc-logo.png "abc-logo")  
+
 # Welcome to eDocStore
 
 The eDocStore is a centralized, scalable, structured content storage solution with Enterprise Content Management (ECM) grade interoperability abilities based on open OASIS standard [Content Management Interoperability Services (CMIS) v1.1](http://docs.oasis-open.org/cmis/CMIS/v1.1/CMIS-v1.1.html).  
