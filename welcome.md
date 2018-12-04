@@ -90,7 +90,8 @@ Implemented CMIS v1.1 services and implementation specific:
 		<CMIS 1.1 query statement> ::= <simple table> [ <order by clause> ]  
 		<simple table>   ::= SELECT <select list> <from clause> [ <where clause> ]  
 		<order by clause> ::= ORDER BY <sort specification> [ { "," <sort specification> }... ]   
-		<sort specification> ::= <column reference> [ ASC | DESC ]
+		<sort specification> ::= <column reference> [ ASC | DESC ]  
+			
 
 ## Platforms
 
