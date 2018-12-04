@@ -1,9 +1,11 @@
+<!--
 ---
 title: Welcome to eDocStore
 description: Getting started with eDocStore.
 author: alvis
 date: 09/11/2018
 ---
+-->
 # Welcome to eDocStore
 
 The eDocStore is a centralized, scalable, structured content storage solution with Enterprise Content Management (ECM) grade interoperability abilities based on open OASIS standard [Content Management Interoperability Services (CMIS) v1.1](http://docs.oasis-open.org/cmis/CMIS/v1.1/CMIS-v1.1.html).  
@@ -17,6 +19,12 @@ The benefits of adoption of the eDocStore solution in such a architecture design
 * standardized, platform independent interoperability;
 * increased document content security;
 * increased ability to get more value out of the data.
+
+## Platforms
+
+This section contains all platform specific implementations of the eDocStore solution.  
+
+- [eDocStore on Microsoft Azure](edocstore-azure.md)
 
 ## CMIS implementation
 eDocStore implementation of the [CMIS standard v1.1](http://docs.oasis-open.org/cmis/CMIS/v1.1/CMIS-v1.1.html) includes: 
@@ -93,9 +101,3 @@ Implemented CMIS v1.1 services and implementation specific:
 	<order by clause> ::= ORDER BY <sort specification> [ { "," <sort specification> }... ]   
 	<sort specification> ::= <column reference> [ ASC | DESC ]    
 	```
-
-## Platforms
-
-This section contains all platform specific implementations of the eDocStore solution.  
-
-- [eDocStore on Microsoft Azure](edocstore-azure.md)
