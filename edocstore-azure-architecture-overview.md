@@ -1,8 +1,10 @@
+<!--
 ---
 title: "Architecture overview of the eDocStore solution hosted on Microsoft Azure"
 description: Get an insight into the architecture of the eDocStore solution hosted on Microsoft Azure.
 date: 09/11/2018
 ---
+-->
 # Architecture overview of the eDocStore solution hosted on Microsoft Azure
 
 The eDocStore is mainly written in .NET/C# and it has a 2-tier architecture model which consists of 
