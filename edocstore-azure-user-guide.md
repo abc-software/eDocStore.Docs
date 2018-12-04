@@ -1,8 +1,10 @@
+<!--
 ---
 title: "eDocStore Azure User guide"
 description: eDocStore Azure User guide.
 date: 09/11/2018
 ---
+-->
 # User guide 
 
 This user guide contains step by step instructions of how to:
