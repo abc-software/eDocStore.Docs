@@ -1,8 +1,10 @@
+<!--
 ---
 title: "eDocStore installation guide (Microsoft Azure)"
 description: eDocStore installation guide (Microsoft Azure).
 date: 09/11/2018
 ---
+-->
 # eDocStore installation guide (Microsoft Azure)
 
 This installation guide contains step by step instructions of how to:
@@ -118,17 +120,15 @@ This section contains step by step instructions of how to setup _eDocStore_ _Web
 	You will be able to update the __appRole collection__ as needed, but to start to successfully use eDocStore binding services it is __highly recommended__ to add this ‘__Administrator__’ role.
 	
 	__NB!__ users with ‘__Administrator__’ role will be able to do anything in any _CMIS_ repository with any _CMIS_ object; this role and it’s permission can not be removed from the _CMIS_ object _ACL_, therefore this role should be given to as few users as possible. It is __highly recommended__ to create local administrator roles for each CMIS repository individually. 
-
-2.	 In the __App Service__ pane select eDocStore REST/SOAP API service __App Service__ and  click on __Application settings__
-	
-	2.1.	Set __ida:IsEnabled__ property value to ‘__true__’ (_default_)
-	![binding azuread app registration create](media/edocstore-azure-installation-guide/set-idaIsEnabled.png "set-idaIsEnabled")  
-	2.2.	Set __ida:Tenant__ property value to _Azure AD_ tenant name, which can be found in __Azure Active Directory__ pane -> __Overview__ page. 
-	![binding azuread app registration create](media/edocstore-azure-installation-guide/set-idaTenant.png "set-idaTenant")  
-	2.3.	Set __ida:Audience__ property value to _App Id URI_ of the 'edocstore-services' application (which was created in step #1). _App Id URI_ can be found in __Azure Active Directory__ pane -> __App registrations__ page -> 'edocstore-services' application -> __Settings__ page -> __Properties__ page -> __App ID URI__.
-	![binding azuread app registration create](media/edocstore-azure-installation-guide/set-idaAudience.png "set-idaAudience")  
-	2.4.	Click on __Save__.  	
-	![binding azuread app registration create](media/edocstore-azure-installation-guide/save-application-settings.png "save-application-settings")  
+2. In the __App Service__ pane select eDocStore REST/SOAP API service __App Service__ and  click on __Application settings__	
+2.1. Set __ida:IsEnabled__ property value to ‘__true__’ (_default_)
+   ![binding azuread app registration create](media/edocstore-azure-installation-guide/set-idaIsEnabled.png "set-idaIsEnabled")  
+2.2. Set __ida:Tenant__ property value to _Azure AD_ tenant name, which can be found in __Azure Active Directory__ pane -> __Overview__ page. 
+![binding azuread app registration create](media/edocstore-azure-installation-guide/set-idaTenant.png "set-idaTenant")  
+2.3. Set __ida:Audience__ property value to _App Id URI_ of the 'edocstore-services' application (which was created in step #1). _App Id URI_ can be found in __Azure Active Directory__ pane -> __App registrations__ page -> 'edocstore-services' application -> __Settings__ page -> __Properties__ page -> __App ID URI__.
+![binding azuread app registration create](media/edocstore-azure-installation-guide/set-idaAudience.png "set-idaAudience")  
+2.4. Click on __Save__.  	
+![binding azuread app registration create](media/edocstore-azure-installation-guide/save-application-settings.png "save-application-settings")     
 3.	By default all users in specific _Azure AD_ tenant will be able to access the _eDocStore_ binding services (even if they won’t have assigned any roles they will be able to retrieve repository information via _GetRepositories_, _GetRepositoryInfo_ services). If you want to restrict access to the specific users of _Azure AD_ tenant __(*recommended*)__ continue with this step; otherwise proceed to the succeeding step.   
 In the __Azure Active Directory__ pane click on __Enterprise Applications__ and select 'edocstore-services' application service principal. In the succeeding page 
     ![enterprise app](media/edocstore-azure-installation-guide/enterprise-app.png "enterprise-app")  
