@@ -1,9 +1,11 @@
+<!--
 ---
 title: eDocStore on Microsoft Azure
 description: Getting started with eDocStore on Microsoft Azure.
 author: alvis
 date: 09/11/2018
 ---
+-->
 # eDocStore on Microsoft Azure
 
 The [eDocStore](welcome.md) is available in the Microsoft Azure as a hosted application Software as a Service _(SaaS)_ solution and is available for download in the Azure Marketplace. 
