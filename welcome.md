@@ -87,14 +87,15 @@ Implemented CMIS v1.1 services and implementation specific:
 	![CMIS Query |567x260,10%](media/cmisquery.png "cmisquery")  
 	![CMIS Query Search Scope](media/cmisquerysearchscope.png "cmisquerysearchscope")  
 	__Supported CMIS Query sintax__  
-		<CMIS 1.1 query statement> ::= <simple table> [ <order by clause> ]  
-		<simple table>   ::= SELECT <select list> <from clause> [ <where clause> ]  
-		<order by clause> ::= ORDER BY <sort specification> [ { "," <sort specification> }... ]   
-		<sort specification> ::= <column reference> [ ASC | DESC ]  
-			
+	```
+	<CMIS 1.1 query statement> ::= <simple table> [ <order by clause> ]  
+	<simple table>   ::= SELECT <select list> <from clause> [ <where clause> ]  
+	<order by clause> ::= ORDER BY <sort specification> [ { "," <sort specification> }... ]   
+	<sort specification> ::= <column reference> [ ASC | DESC ]    
+	```
 
 ## Platforms
 
-This section contains all platform specific implementations of the eDocStore solution.
+This section contains all platform specific implementations of the eDocStore solution.  
 
 - [eDocStore on Microsoft Azure](edocstore-azure.md)
