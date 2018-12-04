@@ -1,8 +1,10 @@
+<!--
 ---
 title: "eDocStore Azure SaaS samples"
 description: eDocStore Azure SaaS samples.
 date: 09/11/2018
 ---
+-->
 # Samples
 
 TODO
